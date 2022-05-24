@@ -5,11 +5,11 @@ const mess = new Vue ({
         messaggio: "hello word with vue js",
         Image: "img/omer-haktan-bulut--_LKIdqHo3w-unsplash.jpg",
         counter: 0,
-        classimage: "image"
+        classimage: "image mb-4 mx-auto",
+        classButton: "btn btn-dark"
     },
     methods: {
         change_right: function () {
-           
       switch (this.counter) {
           case 0:
               this.Image ="img/witchkingblogs-xZDk453dHbg-unsplash.jpg";
